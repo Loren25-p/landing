@@ -7,11 +7,8 @@
 body {
     font-family: 'TT Hoves';
 }
-
-section {
-    padding: 0 calc(10.6vw - 15.8px);
-}
 .courseInfoContainer{
+    margin-left: calc(10.7vw - 17.1px);
     background-image: url(../img/html_css_js.png);
     background-repeat: no-repeat;
     background-position: top calc(4.9vw + 58.7px) right calc(6.1vw - 19.8px);
@@ -200,13 +197,11 @@ h1 {
 
 h2{
     font-family: "TT Hoves", sans-serif;
-    margin-left: 120px;
     margin-top: 160px;
     font-size: 60px;
 }
-.sect2{
-    width: 1095px;
-    margin-left: 120px;
+.backend {
+    margin-left: calc(10.7vw - 17.1px);
 }
 .container1{
     margin-top: 95px;
@@ -219,7 +214,7 @@ h2{
     margin-top: 45px;
 }
 .box1{
-    width: 450px;
+    width: calc(13.4vw + 277.4px);
 }
 h3{
     font-size: 27px;
@@ -309,4 +304,141 @@ p{
     border-radius: 12px;
     opacity: 0px;
 
+}
+
+
+
+
+.container3 {
+    font-family: TT Hoves;
+    background-color: #f5f5f5;
+    margin: 120px;
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container3 {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+.title4 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.monthes {
+    margin-left: calc(10.7vw - 17.1px);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.section_block {
+    width:400px;
+    display: flex;
+    flex-direction: column;
+}
+.section h3 {
+font-family: 'TT Hoves', sans-serif;
+font-size: 27px;
+font-weight: 600;
+line-height: 37.8px;
+text-align: left;
+
+}
+
+section {
+    padding: 120px;
+}
+.section_block p {
+    width: 100%;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 27px;
+    line-height: 37.8px;
+    text-align: left;
+}
+.classes {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+/* legend Start */
+.legendContaner h2 {
+    margin: calc(5.5vw + 19.2px);
+}
+.legend {
+    display: flex;
+    gap: 20px 50px;
+    flex-wrap: wrap;
+}
+.legendImg  {
+    width: calc(7.7vw + 300px);
+}
+.legendInfo {
+    width: 566px;
+    flex-grow: 1000;
+}
+.legendName h3 {
+    font-size: calc(1.1wv + 33.8px);
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: calc(1.1vw + 5.8px);
+}
+.legendName p {
+    font-size: calc(1vw + 14.2px);
+    line-height: 140%;
+    width: calc(5.5vw + 19.2px);
+}
+.legendName {
+    margin-bottom: calc(5.5vw + 19.2px);
+}
+.legendCards {
+    display: drid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: calc(1.1vw + 25.8px) calc(8.8vw - 23.3px);
+    grid-template-areas: 
+    "simple cup"
+    "bag keyboard"; 
+}
+.legendCard p {
+    font-size: calc(0.6 + 14px);
+    font-weight: 400;
+    line-height: 140%;
+    width: calc(10.4vw + 117px);
+    margin-top: 10px;
+}
+.legendCard:nth-last-of-type(1){
+    grid-area: smile;
+}
+.legendCard:nth-last-of-type(2){
+    grid-area: cup;
+}
+.legendCard:nth-last-of-type(3){
+    grid-area: bag;
+}
+.legendCard:nth-last-of-type(4){
+    grid-area: keyboard;
+}
+
+@media (max-width: 1280px) {
+    .legendCards {
+        grid-template-areas: 
+        "smile keyboard"
+        "cup bag";
+
+    }
+    .legend{
+        justify-content: center;
+    }
 }

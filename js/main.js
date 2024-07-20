@@ -3,7 +3,7 @@ function correctData(date){
 }
 
 function saleTime(){
-let endDate= new Date(2024,6, 20 );
+let endDate= new Date(2024,7, 20 );
 let nowDate= new Date();
 let finish = endDate - nowDate;
 

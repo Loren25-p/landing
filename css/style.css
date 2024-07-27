@@ -632,8 +632,117 @@ font-size: calc(1vw + 14.3px);
     }
 }
 
-
-
-
 /* ............ */
 
+
+/* 11111111111 */
+footer {
+    background-color: black;
+    padding: calc(4.4vw + 23.4px) calc(10.6vw - 15.8px);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 90px 0;
+}
+.footer_info h2 {
+    width: calc(10.5vw + 289.6px);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: calc(4.4vw + 23.4px);
+}
+.footer_info ul li {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    font-size: calc(1.1vw + 13px);
+}
+.footer_form{
+    width: calc(16.4vw + 265px);
+    background-color:#FFFFFF;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    padding: 60px calc(3.5vw + 14.7px);
+    position: relative;
+}
+.footer_form h3 {
+    font-size: calc(0.4vw + 24px);
+    font-weight: 700;
+    line-height: 117%; 
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.footer_form p {
+    font-size: calc(0.6vw + 14px);
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+.footer_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 23px 0;
+    margin-bottom: 40px;
+
+}
+.footer_form input {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    padding-bottom: 10px;
+    font-size: calc(0.2vw + 17.1px);
+}
+.footer_form form input[type="submit"]{
+    padding-bottom: 0;
+    border: 0;
+    background: #6E3ABA;
+    color: #FFFFFF;
+    border: 0;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+    cursor: pointer;
+}
+.footer_form span {
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+.footer_form p:nth-of-type(2){
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%; 
+}
+.sale{
+    width: calc(6.2vw + 80.7px);
+    height: calc(6.2vw + 80.7px);
+    background-color:#6E3ABA;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: calc(2.5vw + 30.5px);
+    position: absolute;
+    top: -75%;
+    left: -75%;
+}
+@media (max-width:1010px){
+    footer{
+        justify-content: center;      
+    }
+}
+.sale{
+    right: -55px;
+    left: auto;
+    top: -55px;
+}
+.splide {
+    visibility: visible;
+}

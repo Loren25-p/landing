@@ -93,84 +93,6 @@ button.white {
 
 
 
-/* body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-    font-weight: 700;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
-.card img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 20px;
-}
-
-.card h2 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.card p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-}
-
-/* Медиа-запросы для адаптивности */
-/* @media (max-width: 768px) {
-    .cards {
-        grid-template-columns: 1fr;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    .card h2 {
-        font-size: 20px;
-    }
-
-    .card p {
-        font-size: 14px;
-    }
-}
-
 @media (max-width: 480px) {
     .container {
         padding: 10px;
@@ -192,7 +114,7 @@ h1 {
     .card p {
         font-size: 12px;
     }
-}  */
+}  
 
 
 h2{
@@ -442,3 +364,276 @@ section {
         justify-content: center;
     }
 }
+
+
+
+
+/* Программа курса */
+
+.lessons{
+    
+}
+.border {
+    border:2px solid black;
+    position: absolute;
+}
+.border h2 {
+    padding-top: calc(4.4vw + 1.7px);
+    padding-left: calc(4.9vw + 1.7px);
+}
+.border .lessons {
+    margin-top: calc(1.8vw + 17.4px);
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-left: calc(4.9vw + 1.7px);
+    margin-right: calc(2.7vw + 18px);
+    margin-bottom: calc(0.4vw + 28px);
+}
+.border .lessons li {
+    border-bottom: 1px solid grey;
+    list-style: none;
+    padding-left: calc(4.9vw + 1.7px);
+}
+.border .purple {
+    margin-top: calc(0.4vw + 28px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: calc(6.1vw - 22.8px);
+}
+.hiddenBtn {
+    display: none;
+    margin: calc(0.4vw + 28px) auto 0;
+}
+.borderImg {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 40px;
+}
+@media (max-width:768px) {
+    .hiddenBtn{
+        display: none;
+    }
+    hiddenBtn{
+        display: block;
+    }
+  
+}
+
+
+/* ............. */
+/* .containerDiv {
+     
+} 
+.container5  {
+    font-family: 'TT Hoves';
+    background-color: #ffffff;
+    text-align: center;
+}
+.container5 {
+    background-color: #ffffff;
+}
+.header1 h2 {
+    padding-top: calc(7.74336283185841vw - 9.11504424778761px);
+    padding-left: calc(10.1769911504425vw - 15.2654867256637px);
+}
+
+.content1 img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+.content1 .details1 {
+    margin-left: calc(10.1769911504425vw - 15.2654867256637px);
+    max-width: 50%;
+    text-align: left;
+}  */
+
+.course_diplom {
+    margin-top: calc(11.0619469026549vw + 18.4070796460177px);
+    
+}
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: calc(11.0619469026549vw + 18.4070796460177px); */
+}
+/* ............ */
+
+
+
+
+ 
+
+ .web h2 {
+    padding-top: calc(5.42035398230088vw +  563.619469026549px);
+    padding-left: calc(10.7300884955752vw - 17.3451327433628px);
+    padding-right: calc(45.1327433628319vw - 146.699115044248px)
+}
+.web p {
+    padding-top: calc(2.21238938053097vw + 11.6814159292035px);
+    padding-left: calc(10.8407079646018vw - 17.7610619469027px);
+    }
+.webImg {
+    padding-top: calc(1.76991150442478vw + 13.3451327433628px);
+    padding-left: calc(10.6194690265487vw - 15.929203539823px);
+    padding-right: calc(7.9646017699115vw - 6.94690265486726px);
+    width: calc(81.5265486725664vw + 21.4601769911504px);
+    height: calc(23.6725663716814vw + 6.99115044247788px);
+    top: calc(37.1681415929204vw - 43.7522123893805px);
+    left: calc(13.1637168141593vw - 48.4955752212389px);
+} 
+
+
+.diplomImg {
+    padding-top: calc(3.31858407079646vw + 17.5221238938053px);
+    padding-left: calc(10.8407079646018vw - 17.7610619469027px);
+}
+.diplom3 h2 {
+    padding-top: 10px;
+} 
+
+
+
+/* .......... */
+
+/* .fiedback h2 {
+    margin-bottom: calc(-37.0575221238938vw + 514.336283185841px);
+}
+.fiedback_cards {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+.fiedback_card {
+    background-color:bisque;
+    padding: 46px calc(0.4vw + 14.3px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+fiedback_card p {
+    font-size: 21px;
+    line-height: 140%;
+}
+fiedback_user {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.fiedback_user img {
+    border-radius: 50%;
+}
+fiedback_user p {
+    max-width: 169px;
+}
+  */
+
+  .fiedback h2 {
+    margin-bottom: calc(2.2vw + 11.7px);
+  }
+  .fiedback_cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .fiedback_card {
+    background-color: #f0f7fd;
+    padding: 46px calc(0.4vw + 14.3px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 484px;
+  }
+  .youtube {
+    margin-bottom: 12px;
+  }
+  .fiedback_card p {
+    font-size: 21px;
+    line-height: 140%;
+  }
+  .fiedback_user{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .fiedback_user img{
+    border-radius: 50%;
+  }
+  .fiedback_user p{
+    max-width: 169px;
+  }
+
+
+  /* .......... */
+
+  #switch1:checked ~ #slides .img{
+    margin-left: -0;
+  }
+  #switch2:checked ~ #slides .img{
+    margin-left: -100%;
+  }
+  #switch3:checked ~ #slides .img{
+    margin-left: -200%;
+  }
+  #slides .image {
+    transition: all 800ms cubic-bezier(0.770. 0.000. 0.175. 1.000);
+  }
+  .switch1 .checked ~ #slides .img{
+    margin-left: 0;
+    }
+  
+
+
+
+  /* .......... */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing{
+    padding: 0 calc(10.7vw - 16px);
+}
+.landing div{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "diplomImg header""diplomImg text";
+    gap: 20px;
+}
+.diplomImg{
+    display: block;
+    grid-area: diplomImg;
+}
+.header{
+    grid-area: header;
+font-size:  calc(2.7vw + 24px);
+font-weight: 500;
+margin-top: 60px;
+
+
+}
+.text{
+    grid-area: text;
+font-size: calc(1vw + 14.3px);
+}
+@media(max-width: 600px){
+    .landing div{
+        grid-template-columns: calc(25.9vw + 309px) auto;
+        grid-template-areas: "header" "diplomImg" "text";
+    }
+}
+
+
+
+
+/* ............ */
+
